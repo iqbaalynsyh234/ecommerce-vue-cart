@@ -1,6 +1,4 @@
-import { type ClassValue } from "class-variance-authority"
-
-export function cn(...inputs: ClassValue[]) {
+export function cn(...inputs: (string | undefined | null | false)[]) {
   return inputs.filter(Boolean).join(' ')
 }
 

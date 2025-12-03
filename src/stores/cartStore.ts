@@ -1,5 +1,5 @@
 import { reactive, computed } from 'vue';
-import type { Product, CartItem, CartState } from '@/types';
+import type { Product, CartState } from '@/types';
 
 // Sample products data
 export const sampleProducts: Product[] = [
